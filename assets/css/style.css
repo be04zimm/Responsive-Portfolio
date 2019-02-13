@@ -1,0 +1,178 @@
+/* WHOLE PAGE ATTRIBUTES*/
+html{
+    height: 100%;
+}
+
+body {
+  margin: 110px auto 50px auto;
+  padding: 0;
+  background-image:url("/Users/busybee/UCLA/Homework/Assignment1/Basic-Portfolio/assets/images/hypnotize.png");
+  background-size: inherit;
+  position: relative;
+  min-height: 100%;
+  max-width: 960px;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin: 0 30px;
+  padding: 0 25px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+}
+
+
+/* HEADER CONTENT*/
+section{
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    top:0;
+}
+#header {
+  background: #fff;
+  width:100%;
+  height: 80px;
+  position: fixed;
+  border-bottom-color:#cccccc;
+  border-bottom-style:solid;
+  border-bottom-width:thin;
+  float:left;
+  left:0;
+  top:0;
+}
+#nav{
+    max-width: 960px;
+    height:60px;
+    color:#777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float:right;
+    margin-top: 30px;
+}
+#name{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 300px;
+    height: 80px;
+    top: 20px;
+    text-align: center;
+    float: left;
+
+}
+
+a:link{
+    color: slategray;
+    text-decoration: none;
+}
+a:visited{
+    color: slategray;
+}
+a:hover{
+    color: hotpink;
+    
+}
+a:active{
+    color:blueviolet;
+}
+
+
+
+/* MAIN PAGE CONTENT */
+#content {
+  margin-left: auto;
+  border: #777;
+  border-style:solid;
+  border-width: thin;
+  padding: 30px; 
+  line-height: 150%;
+  font-family: Arial, Helvetica, 'Helvetica-Neue' sans-serif;
+  color: #777;
+  background: #fff;
+}
+
+#about{
+    color: teal;   
+}
+#hline{
+    border-bottom: 2px solid #ccc;
+}
+
+#bzpic{
+    max-height: 300px;
+    max-width: 300px; 
+    float: left;
+    margin: 6px 15px 15px 0;
+    z-index: -1;
+}
+
+
+/* FOOTER CONTENT */
+#footer {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #666666;
+  border-top-color: teal;
+  border-top-style: solid;
+  border-top-width: thick;
+}
+#copy{
+    vertical-align: bottom;
+    text-align: center;
+    color: lightgray;
+    padding-top: 20px;
+    text-emphasis: strong;
+    font-family: Arial, Helvetica, 'Helvetica-Neue' sans-serif;
+
+}
+
+/* PORTFOLIO PAGE  */
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+table#table1 {
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:100px;
+}
+tr,td {text-align:center;}
+
+.centered {
+    position: absolute;
+    background: #4aaaa5;
+    padding: 20px 111px 20px 111px;
+    color: rgb(255, 255, 255);
+    bottom: 50px;
+    font-size: 20px;
+    
+}
+.portfolio{
+position: relative;
+float:left;
+padding: 10px;
+}
+
+
+
+/* media queries  will go here*/
+/* Need to adjust body size so that the images & text stack appropriately
+/* @media screen and (max-width:400px)
+    body{
+    }
+  } */
+/* 
+  @media screen and (max-width: 768px) 
+
+  /* { */
+    /* The body's bg color will be #333 */
+    /* body {
+    } */ 
+  
+  
